@@ -1,11 +1,5 @@
-x = int(input())
-def power2(x):
-	if(x == 0):
-		return 1
-	else:
-		return(2 * power2(x - 1))
-
-n = int(input())
+x = int(input("Enter the base"))
+n = int(input("Enter the exponent"))
 def power(n):
 	if(n == 0):
 		return 1
